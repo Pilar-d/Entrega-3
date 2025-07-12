@@ -43,30 +43,38 @@ function ActualizarCliente(){
                 <div className="form-group">
                     <label>RUT</label>
                     <input type="text" className="form-control" value={id_cliente} onChange={(e) => setIdCliente(e.target.value)} disabled ></input>
+                    <br></br>
                 </div>
                 <div className="form-group">
                     <label>DV</label>
                     <input type="text" className="form-control" value={dv} onChange={(e) => setDv(e.target.value)} disabled ></input>
+                    <br></br>
                 </div>
                 <div className="form-group">
                     <label>NOMBRES</label>
                     <input type="text" className="form-control" value={nombres} onChange={(e) => setNombres(e.target.value)}></input>
+                    <br></br>
                 </div>
                 <div className="form-group">
                     <label>APELLIDOS</label>
                     <input type="text" className="form-control" value={apellidos} onChange={(e) => setApellidos(e.target.value)}></input>
+                    <br></br>
                 </div>
                 <div className="form-group">
                     <label>EMAIL</label>
                     <input type="text" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)}></input>
+                    <br></br>
                 </div>
                 <div className="form-group">
                     <label>CELULAR</label>
                     <input type="text" className="form-control" value={celular} onChange={(e) => setCelular(e.target.value)}></input>
+                    <br></br>
                 </div>
-                <button type="submit" className="btn btn-primary">Actualizar Cliente</button>
+                <button type="submit" className="btn btn-warning">Actualizar Cliente</button>
             </form>
+             <br></br>
         </div>
+        
     );
 }
 export default ActualizarCliente;

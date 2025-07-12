@@ -31,6 +31,7 @@ function ListaGestiones() {
 
   return (
     <div className="container">
+      <br></br>
       <h1>Gestiones</h1>
       <hr></hr>
       <table className="table">

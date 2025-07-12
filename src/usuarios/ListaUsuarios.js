@@ -18,6 +18,7 @@ function ListaUsuarios(){
     },[]);
     return (
         <div className="container">
+            <br></br>
             <h1>Lista de Usuarios</h1>
             <hr></hr>
             <a href="/usuarios/agregar" className="btn btn-primary">Agregar Usuario</a>
@@ -32,6 +33,7 @@ function ListaUsuarios(){
                     <th>CELULAR</th>
                     <th>USERNAME</th>
                     <th>PASSWORD</th>
+                    <th>OPCIONES</th>
                 </thead>
                 <tbody>
                     {usuarios.map((usuario) => (

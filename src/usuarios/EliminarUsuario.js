@@ -31,9 +31,13 @@ function EliminarUsuario(){
     };
     return (
         <div className="container">
+            <br></br>
             <h1>¿Desea eliminar al usuario?</h1>
+            <br></br>
             <h3>{usuario && usuario.nombres} {usuario.apellidos}</h3>
+            <br></br>
             <Button variant="danger" onClick={onSubmit}> Eliminar</Button>
+            <br></br><br></br>
         </div>
     );
 }

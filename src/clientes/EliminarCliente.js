@@ -31,9 +31,13 @@ function EliminarCliente(){
     };
     return (
         <div className="container">
-        <h1>¿Desea eliminar al cliente ? </h1>
+        <br></br>
+        <h1>¿Desea eliminar al cliente?</h1>
+        <br></br>
         <h3>{cliente && cliente.nombres} {cliente.apellidos}</h3>
-        <Button variant="danger" onClick={onSubmit}> Eliminar </Button>
+        <br></br>
+        <Button variant="danger" onClick={onSubmit}>Eliminar</Button>
+        <br></br><br></br>
         </div>
     );
 }

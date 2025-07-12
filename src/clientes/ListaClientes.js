@@ -19,6 +19,7 @@ function ListaClientes(){
     },[]);
     return (
         <div className="container">
+            <br></br>
             <h1>Lista de clientes</h1>
             <hr></hr>
             <a href="/clientes/agregar" className="btn btn-primary">Agregar Cliente</a>
